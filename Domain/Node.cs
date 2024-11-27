@@ -10,6 +10,7 @@ namespace Domain
         public bool IsCompleted { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public DateTime CreateAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
         // Navigation property for Roadmap

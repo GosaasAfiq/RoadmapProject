@@ -7,6 +7,7 @@ namespace Domain
         public string RoadmapName { get; set; }
         public bool IsPublished { get; set; }
         public bool IsCompleted { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
